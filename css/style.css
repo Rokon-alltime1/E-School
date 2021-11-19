@@ -1,0 +1,322 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 1.4em;
+	font-family: 'Hachi Maru Pop', cursive;
+	/*font-family: 'Poppins', sans-serif;*/
+}
+h1,h2,h3,h4,h5,h6{
+
+
+}
+a,a:hover{
+	text-decoration: none;
+}
+/***********************************************?/
+*E-School code Gose here***
+************************************************/
+.header-section{
+	width: 100%;
+	background: #F0FFF0;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 15px;
+}
+.header-section .navbar .btn-success {
+    color: #fff;
+    background-color: #21B573;
+    border-color: #21B573;
+    padding: 5px 40px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-width:700;
+	margin: 0px 0px 0px 20px;
+}
+.header-section .navbar .btn-success:hover, .header-section .navbar .btn-success:focus{
+	color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+	border: 1px solid #000;
+	font-weight: 800;
+
+}
+.banner{
+	widows: 100%;
+	padding: 100px 0px;
+}
+.banner h1{
+	/*font-family: Poppins;*/
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 70px;
+	/* or 146% */
+}
+.banner h5{
+	font-size: 18px;
+	font-weight: 700;
+	color: #FD511A;
+	line-height: 28px;
+
+}
+.banner h1 span{
+	color: #21B573;
+
+
+}
+.banner p{
+	/*font-family: Poppins;*/
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 36px;
+	color: #6C6B6B;
+	/* or 146% */
+
+}
+.banner .btn-success{
+	color: #fff;
+    background-color: #21B573;
+    border-color: #21B573;
+    padding: 5px 40px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-width:700;
+	margin: 20px 0px 0px 0px;
+
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+	color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .inner-feature{
+	width: 100%;
+	padding:40px 25px;
+	background: #F8FFFB;
+	text-align: center;
+	border-radius: 10px;
+}
+.feature .inner-feature img{
+	width: 90px;
+	height:90px;
+	margin:0px 0px 20px;
+}
+.feature .inner-feature h4{
+	font-size: 24px;
+	font-width: 800;
+	line-height: 34px;
+	color: #000;
+	margin: 0px;
+}
+.feature .inner-feature p{
+	font-size: 16px;
+	font-width: 800;
+	line-height: 26px;
+	color: #585859;
+	margin: 0px;
+
+}
+.feature .inner-feature:hover{
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.online-course{
+	width: 100%;
+	padding: 80px 0px;
+}
+.online-course .title{
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 70px;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 0px 0px 80px;
+
+}
+.online-course .card{
+	padding: 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	border: 0px;
+}
+.online-course .card:hover{
+	background: #ffff;
+	box-shadow: 0px 20px 40px rgba(0, 32, 37, 41);
+	border-radius: 10px;
+
+}
+.online-course .card .main-img{
+	border-radius: 11px;
+}
+.online-course .card-body{
+	padding:20px 0px 0px;
+}
+.online-course .card-body .card-title{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	/* identical to box height */
+	color: #413960;
+}
+.online-course .card-body .card-text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	margin-bottom: 20px;
+}
+
+.online-course .card-body .btn-success{
+	color: #fff;
+    background-color: #21B573;
+    border-color: #21B573;
+    padding: 5px 40px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-width:700;
+	margin: 0px;
+
+}
+.online-course .card-body .date{
+	width: 100%;
+	margin:35px 0px 0px;
+}
+.online-course .card-body .date p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+}
+.online-course .card-body .seats{
+	width: 100%;
+	margin:35px 0px 0px;
+}
+.online-course .card-body .seats p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+}
+.online-course .card-body .btn-success:hover, .online-course .card-body .btn-success:focus{
+	color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+}
+.testimonial .title{
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 70px;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 0px 0px 80px;
+}
+.testimonial img{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+}
+.testimonial img:hover{
+	background: #21B573;
+	box-shadow: 0px 20px 40px rgba(0, 32, 37, 41);
+	border-radius: 10px;
+}
+.testimonial img:hover, .testimonial img:focus{
+		color: #21B573;
+		background-color: transparent;
+		border-color: #21B573;
+}
+.testimonial p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	margin:50px 0px 0px;
+}
+.footer-section{
+	width: 100%;
+	padding: 80px 0px 40px;
+	background-color: #282531;
+}
+.footer-section p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+}
+.widget{
+	width: 100%;
+	margin: 0px 0px 100px;
+}
+.footer-section .widget h6{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	/* or 167% */
+	color: #FFFFFF;
+	text-align: center;
+	/*margin-left: 30px;*/
+	/*padding: 0px 0px 0px 4px;*/
+}
+.footer-section .widget ul{
+	padding: 0px;
+}
+.footer-section .widget ul li{
+	list-style: none;
+
+}
+.footer-section .widget ul li a{
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	margin: 5px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+
+}
+.footer-section .widget ul li a:hover{
+	background: #0D559D;
+	box-shadow: 0px 20px 40px rgba(0, 32, 37, 41);
+	border-radius: 5px;
+}
+.copyright{
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	color: #CDCDCD;
+}
